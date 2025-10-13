@@ -1,7 +1,7 @@
 const calculate = () => {
   let p = Number(document.getElementById("principle").value);
   let r = Number(document.getElementById("rate").value);
-  let t = Number(document.getElementById("time").value);
+
   let simpleInterest = (p * r * t) / 100;
   let amount = p - simpleInterest;
 
